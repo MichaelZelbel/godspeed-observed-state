@@ -1,0 +1,44 @@
+name: hourly
+
+# Once an hour, for every Godspeed Mission Control reader together: read Observed State's three
+# files (an empty "unchanged" reply when nothing moved), rebuild the line, commit it.
+# The commit every hour is also what keeps GitHub from switching this schedule off, which it
+# does to a public repository with no activity for 60 days.
+on:
+  schedule:
+    - cron: "17 * * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: hourly
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - name: Tests
+        run: python3 -m unittest -q
+      - name: Build the line
+        id: build
+        run: |
+          set +e
+          python3 build.py
+          echo "code=$?" >> "$GITHUB_OUTPUT"
+      - name: Commit
+        run: |
+          git config user.name "godspeed-observed-state"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add latest.json latest.txt state
+          git diff --cached --quiet || git commit -q -m "line: $(cut -c1-120 latest.txt)"
+          git push -q
+      - name: Fail the run when the line is "not available"
+        if: steps.build.outputs.code != '0'
+        run: |
+          echo "build.py could not build the line; latest.json says why"
+          exit 1

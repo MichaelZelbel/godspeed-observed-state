@@ -1,0 +1,24 @@
+{
+  "status": "ok",
+  "link": "https://observedstate.com/en/",
+  "checked_utc": "2026-10-01T22:54:29Z",
+  "source": "Observed State, by Angel Cabrera",
+  "sources": {
+    "adsb": {
+      "calculado_utc": "2026-10-01T19:36:51+00:00",
+      "fetch": "unchanged"
+    },
+    "ioda": {
+      "calculado_utc": "2026-10-01T17:16:21+00:00",
+      "fetch": "unchanged"
+    },
+    "usgs": {
+      "calculado_utc": "2026-10-01T22:33:58+00:00",
+      "fetch": "unchanged"
+    }
+  },
+  "line": "The observed state of the world: nothing to flag today.",
+  "count": 0,
+  "items": [],
+  "text": "The observed state of the world: nothing to flag today. https://observedstate.com/en/"
+}
