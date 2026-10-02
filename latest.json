@@ -1,24 +1,29 @@
 {
   "status": "ok",
   "link": "https://observedstate.com/en/",
-  "checked_utc": "2026-10-02T02:18:40Z",
+  "checked_utc": "2026-10-02T09:52:07Z",
   "source": "Observed State, by Angel Cabrera",
   "sources": {
     "adsb": {
-      "calculado_utc": "2026-10-01T19:36:51+00:00",
-      "fetch": "unchanged"
+      "calculado_utc": "2026-10-02T07:35:50+00:00",
+      "fetch": "changed"
     },
     "ioda": {
-      "calculado_utc": "2026-10-02T00:16:21+00:00",
+      "calculado_utc": "2026-10-02T07:16:14+00:00",
       "fetch": "changed"
     },
     "usgs": {
-      "calculado_utc": "2026-10-02T01:33:58+00:00",
+      "calculado_utc": "2026-10-02T09:33:58+00:00",
       "fetch": "changed"
     }
   },
-  "line": "The observed state of the world: nothing to flag today.",
-  "count": 0,
-  "items": [],
-  "text": "The observed state of the world: nothing to flag today. https://observedstate.com/en/"
+  "line": "The observed state of the world: 1 thing to flag today. Internet, in the Philippines.",
+  "count": 1,
+  "items": [
+    {
+      "kind": "internet",
+      "name": "the Philippines"
+    }
+  ],
+  "text": "The observed state of the world: 1 thing to flag today. Internet, in the Philippines. https://observedstate.com/en/"
 }
