@@ -1,24 +1,29 @@
 {
   "status": "ok",
   "link": "https://observedstate.com/en/",
-  "checked_utc": "2026-10-05T16:07:30Z",
+  "checked_utc": "2026-10-05T22:42:55Z",
   "source": "Observed State, by Angel Cabrera",
   "sources": {
     "adsb": {
-      "calculado_utc": "2026-10-05T14:37:48+00:00",
+      "calculado_utc": "2026-10-05T19:36:58+00:00",
       "fetch": "changed"
     },
     "ioda": {
-      "calculado_utc": "2026-10-05T12:16:12+00:00",
+      "calculado_utc": "2026-10-05T19:16:29+00:00",
       "fetch": "changed"
     },
     "usgs": {
-      "calculado_utc": "2026-10-05T15:33:58+00:00",
+      "calculado_utc": "2026-10-05T22:33:58+00:00",
       "fetch": "changed"
     }
   },
-  "line": "The observed state of the world: nothing to flag today.",
-  "count": 0,
-  "items": [],
-  "text": "The observed state of the world: nothing to flag today. https://observedstate.com/en/"
+  "line": "The observed state of the world: 1 thing to flag today. Air traffic, at Sydney.",
+  "count": 1,
+  "items": [
+    {
+      "kind": "air",
+      "name": "Sydney"
+    }
+  ],
+  "text": "The observed state of the world: 1 thing to flag today. Air traffic, at Sydney. https://observedstate.com/en/"
 }
