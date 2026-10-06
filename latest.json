@@ -1,24 +1,29 @@
 {
   "status": "ok",
   "link": "https://observedstate.com/en/",
-  "checked_utc": "2026-10-06T10:27:11Z",
+  "checked_utc": "2026-10-06T17:15:15Z",
   "source": "Observed State, by Angel Cabrera",
   "sources": {
     "adsb": {
-      "calculado_utc": "2026-10-06T07:35:28+00:00",
+      "calculado_utc": "2026-10-06T14:37:13+00:00",
       "fetch": "changed"
     },
     "ioda": {
-      "calculado_utc": "2026-10-06T09:17:07+00:00",
+      "calculado_utc": "2026-10-06T16:17:06+00:00",
       "fetch": "changed"
     },
     "usgs": {
-      "calculado_utc": "2026-10-06T09:33:58+00:00",
+      "calculado_utc": "2026-10-06T16:33:58+00:00",
       "fetch": "changed"
     }
   },
-  "line": "The observed state of the world: nothing to flag today.",
-  "count": 0,
-  "items": [],
-  "text": "The observed state of the world: nothing to flag today. https://observedstate.com/en/"
+  "line": "The observed state of the world: 1 thing to flag today. Internet, in Poland.",
+  "count": 1,
+  "items": [
+    {
+      "kind": "internet",
+      "name": "Poland"
+    }
+  ],
+  "text": "The observed state of the world: 1 thing to flag today. Internet, in Poland. https://observedstate.com/en/"
 }
