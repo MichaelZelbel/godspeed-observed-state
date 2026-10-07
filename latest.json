@@ -1,24 +1,33 @@
 {
   "status": "ok",
   "link": "https://observedstate.com/en/",
-  "checked_utc": "2026-10-07T16:35:54Z",
+  "checked_utc": "2026-10-07T22:02:31Z",
   "source": "Observed State, by Angel Cabrera",
   "sources": {
     "adsb": {
-      "calculado_utc": "2026-10-07T14:36:49+00:00",
+      "calculado_utc": "2026-10-07T19:38:10+00:00",
       "fetch": "changed"
     },
     "ioda": {
-      "calculado_utc": "2026-10-07T13:17:16+00:00",
+      "calculado_utc": "2026-10-07T20:16:34+00:00",
       "fetch": "changed"
     },
     "usgs": {
-      "calculado_utc": "2026-10-07T16:33:58+00:00",
+      "calculado_utc": "2026-10-07T21:33:58+00:00",
       "fetch": "changed"
     }
   },
-  "line": "The observed state of the world: nothing to flag today.",
-  "count": 0,
-  "items": [],
-  "text": "The observed state of the world: nothing to flag today. https://observedstate.com/en/"
+  "line": "The observed state of the world: 2 things to flag today. Air traffic, at Sydney; internet, in Russia.",
+  "count": 2,
+  "items": [
+    {
+      "kind": "air",
+      "name": "Sydney"
+    },
+    {
+      "kind": "internet",
+      "name": "Russia"
+    }
+  ],
+  "text": "The observed state of the world: 2 things to flag today. Air traffic, at Sydney; internet, in Russia. https://observedstate.com/en/"
 }
