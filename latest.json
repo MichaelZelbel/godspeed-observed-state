@@ -1,24 +1,33 @@
 {
   "status": "ok",
   "link": "https://observedstate.com/en/",
-  "checked_utc": "2026-10-08T09:05:06Z",
+  "checked_utc": "2026-10-08T16:34:12Z",
   "source": "Observed State, by Angel Cabrera",
   "sources": {
     "adsb": {
-      "calculado_utc": "2026-10-08T07:36:44+00:00",
+      "calculado_utc": "2026-10-08T14:37:15+00:00",
       "fetch": "changed"
     },
     "ioda": {
-      "calculado_utc": "2026-10-08T03:16:19+00:00",
+      "calculado_utc": "2026-10-08T10:16:28+00:00",
       "fetch": "changed"
     },
     "usgs": {
-      "calculado_utc": "2026-10-08T08:33:58+00:00",
+      "calculado_utc": "2026-10-08T16:33:58+00:00",
       "fetch": "changed"
     }
   },
-  "line": "The observed state of the world: nothing to flag today.",
-  "count": 0,
-  "items": [],
-  "text": "The observed state of the world: nothing to flag today. https://observedstate.com/en/"
+  "line": "The observed state of the world: 2 things to flag today. Internet, in Ukraine; a magnitude 6.3 earthquake (102 km NE of Norsup, Vanuatu).",
+  "count": 2,
+  "items": [
+    {
+      "kind": "internet",
+      "name": "Ukraine"
+    },
+    {
+      "kind": "earthquake",
+      "name": "a magnitude 6.3 earthquake (102 km NE of Norsup, Vanuatu)"
+    }
+  ],
+  "text": "The observed state of the world: 2 things to flag today. Internet, in Ukraine; a magnitude 6.3 earthquake (102 km NE of Norsup, Vanuatu). https://observedstate.com/en/"
 }
