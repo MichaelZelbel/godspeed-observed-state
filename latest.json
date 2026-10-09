@@ -1,33 +1,24 @@
 {
   "status": "ok",
   "link": "https://observedstate.com/en/",
-  "checked_utc": "2026-10-09T09:15:36Z",
+  "checked_utc": "2026-10-09T16:20:55Z",
   "source": "Observed State, by Angel Cabrera",
   "sources": {
     "adsb": {
-      "calculado_utc": "2026-10-09T07:36:10+00:00",
+      "calculado_utc": "2026-10-09T14:36:10+00:00",
       "fetch": "changed"
     },
     "ioda": {
-      "calculado_utc": "2026-10-09T07:17:22+00:00",
+      "calculado_utc": "2026-10-09T14:16:11+00:00",
       "fetch": "changed"
     },
     "usgs": {
-      "calculado_utc": "2026-10-09T08:33:58+00:00",
+      "calculado_utc": "2026-10-09T15:33:58+00:00",
       "fetch": "changed"
     }
   },
-  "line": "The observed state of the world: 2 things to flag today. Air traffic, at Delhi; a magnitude 6.3 earthquake (102 km NE of Norsup, Vanuatu).",
-  "count": 2,
-  "items": [
-    {
-      "kind": "air",
-      "name": "Delhi"
-    },
-    {
-      "kind": "earthquake",
-      "name": "a magnitude 6.3 earthquake (102 km NE of Norsup, Vanuatu)"
-    }
-  ],
-  "text": "The observed state of the world: 2 things to flag today. Air traffic, at Delhi; a magnitude 6.3 earthquake (102 km NE of Norsup, Vanuatu). https://observedstate.com/en/"
+  "line": "The observed state of the world: nothing to flag today.",
+  "count": 0,
+  "items": [],
+  "text": "The observed state of the world: nothing to flag today. https://observedstate.com/en/"
 }
