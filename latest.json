@@ -1,25 +1,29 @@
 {
   "status": "ok",
   "link": "https://observedstate.com/en/",
-  "checked_utc": "2026-10-10T01:47:20Z",
+  "checked_utc": "2026-10-10T08:35:23Z",
   "source": "Observed State, by Angel Cabrera",
   "sources": {
     "adsb": {
-      "calculado_utc": "2026-10-09T19:37:45+00:00",
-      "fetch": "unchanged"
+      "calculado_utc": "2026-10-10T07:35:32+00:00",
+      "fetch": "changed"
     },
     "ioda": {
-      "calculado_utc": "2026-10-09T21:16:28+00:00",
-      "fetch": "unchanged"
+      "calculado_utc": "2026-10-10T04:16:32+00:00",
+      "fetch": "changed"
     },
     "usgs": {
-      "calculado_utc": "2026-10-10T01:33:58+00:00",
+      "calculado_utc": "2026-10-10T08:33:58+00:00",
       "fetch": "changed"
     }
   },
-  "line": "The observed state of the world: 2 things to flag today. A magnitude 7.7 earthquake (12 km WSW of Pitaloza Arriba, Panama); a magnitude 6.6 earthquake (14 km W of Río Grande, Panama).",
-  "count": 2,
+  "line": "The observed state of the world: 4 things to flag today. Air traffic, at Delhi; a magnitude 7.7 earthquake (12 km WSW of Pitaloza Arriba, Panama); a magnitude 6.6 earthquake (14 km W of Río Grande, Panama); a magnitude 6.0 earthquake (7 km N of La Tronosa, Panama).",
+  "count": 4,
   "items": [
+    {
+      "kind": "air",
+      "name": "Delhi"
+    },
     {
       "kind": "earthquake",
       "name": "a magnitude 7.7 earthquake (12 km WSW of Pitaloza Arriba, Panama)"
@@ -27,7 +31,11 @@
     {
       "kind": "earthquake",
       "name": "a magnitude 6.6 earthquake (14 km W of Río Grande, Panama)"
+    },
+    {
+      "kind": "earthquake",
+      "name": "a magnitude 6.0 earthquake (7 km N of La Tronosa, Panama)"
     }
   ],
-  "text": "The observed state of the world: 2 things to flag today. A magnitude 7.7 earthquake (12 km WSW of Pitaloza Arriba, Panama); a magnitude 6.6 earthquake (14 km W of Río Grande, Panama). https://observedstate.com/en/"
+  "text": "The observed state of the world: 4 things to flag today. Air traffic, at Delhi; a magnitude 7.7 earthquake (12 km WSW of Pitaloza Arriba, Panama); a magnitude 6.6 earthquake (14 km W of Río Grande, Panama); a magnitude 6.0 earthquake (7 km N of La Tronosa, Panama). https://observedstate.com/en/"
 }
