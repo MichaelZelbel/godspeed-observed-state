@@ -1,24 +1,24 @@
 {
   "status": "ok",
   "link": "https://observedstate.com/en/",
-  "checked_utc": "2026-10-13T17:38:09Z",
+  "checked_utc": "2026-10-13T22:51:13Z",
   "source": "Observed State, by Angel Cabrera",
   "sources": {
     "adsb": {
-      "calculado_utc": "2026-10-13T14:36:40+00:00",
+      "calculado_utc": "2026-10-13T19:37:06+00:00",
       "fetch": "changed"
     },
     "ioda": {
       "calculado_utc": "2026-10-13T16:16:26+00:00",
-      "fetch": "changed"
+      "fetch": "unchanged"
     },
     "usgs": {
-      "calculado_utc": "2026-10-13T17:33:58+00:00",
+      "calculado_utc": "2026-10-13T22:33:58+00:00",
       "fetch": "changed"
     }
   },
-  "line": "The observed state of the world: 5 things to flag today. Internet, in Bangladesh and Switzerland; a magnitude 6.1 earthquake (17 km W of Río Grande, Panama); a magnitude 6.7 earthquake (central Mid-Atlantic Ridge); a magnitude 6.8 earthquake (central Mid-Atlantic Ridge).",
-  "count": 5,
+  "line": "The observed state of the world: 6 things to flag today. Internet, in Bangladesh and Switzerland; a magnitude 6.1 earthquake (17 km W of Río Grande, Panama); a magnitude 6.7 earthquake (central Mid-Atlantic Ridge); a magnitude 6.8 earthquake (central Mid-Atlantic Ridge); a magnitude 6.0 earthquake (126 km S of Kokopo, Papua New Guinea).",
+  "count": 6,
   "items": [
     {
       "kind": "internet",
@@ -39,7 +39,11 @@
     {
       "kind": "earthquake",
       "name": "a magnitude 6.8 earthquake (central Mid-Atlantic Ridge)"
+    },
+    {
+      "kind": "earthquake",
+      "name": "a magnitude 6.0 earthquake (126 km S of Kokopo, Papua New Guinea)"
     }
   ],
-  "text": "The observed state of the world: 5 things to flag today. Internet, in Bangladesh and Switzerland; a magnitude 6.1 earthquake (17 km W of Río Grande, Panama); a magnitude 6.7 earthquake (central Mid-Atlantic Ridge); a magnitude 6.8 earthquake (central Mid-Atlantic Ridge). https://observedstate.com/en/"
+  "text": "The observed state of the world: 6 things to flag today. Internet, in Bangladesh and Switzerland; a magnitude 6.1 earthquake (17 km W of Río Grande, Panama); a magnitude 6.7 earthquake (central Mid-Atlantic Ridge); a magnitude 6.8 earthquake (central Mid-Atlantic Ridge); a magnitude 6.0 earthquake (126 km S of Kokopo, Papua New Guinea). https://observedstate.com/en/"
 }
