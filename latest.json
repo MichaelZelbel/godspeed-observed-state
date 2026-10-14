@@ -1,29 +1,24 @@
 {
   "status": "ok",
   "link": "https://observedstate.com/en/",
-  "checked_utc": "2026-10-14T18:41:29Z",
+  "checked_utc": "2026-10-14T22:20:33Z",
   "source": "Observed State, by Angel Cabrera",
   "sources": {
     "adsb": {
-      "calculado_utc": "2026-10-14T14:37:06+00:00",
+      "calculado_utc": "2026-10-14T19:37:09+00:00",
       "fetch": "changed"
     },
     "ioda": {
-      "calculado_utc": "2026-10-14T13:16:28+00:00",
-      "fetch": "unchanged"
+      "calculado_utc": "2026-10-14T20:16:11+00:00",
+      "fetch": "changed"
     },
     "usgs": {
-      "calculado_utc": "2026-10-14T18:33:58+00:00",
+      "calculado_utc": "2026-10-14T21:33:58+00:00",
       "fetch": "changed"
     }
   },
-  "line": "The observed state of the world: 1 thing to flag today. A magnitude 6.0 earthquake (126 km S of Kokopo, Papua New Guinea).",
-  "count": 1,
-  "items": [
-    {
-      "kind": "earthquake",
-      "name": "a magnitude 6.0 earthquake (126 km S of Kokopo, Papua New Guinea)"
-    }
-  ],
-  "text": "The observed state of the world: 1 thing to flag today. A magnitude 6.0 earthquake (126 km S of Kokopo, Papua New Guinea). https://observedstate.com/en/"
+  "line": "The observed state of the world: nothing to flag today.",
+  "count": 0,
+  "items": [],
+  "text": "The observed state of the world: nothing to flag today. https://observedstate.com/en/"
 }
