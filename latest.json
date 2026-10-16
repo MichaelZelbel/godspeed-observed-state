@@ -1,24 +1,101 @@
 {
   "status": "ok",
   "link": "https://observedstate.com/en/",
-  "checked_utc": "2026-10-15T22:24:46Z",
+  "checked_utc": "2026-10-16T01:26:31Z",
   "source": "Observed State, by Angel Cabrera",
   "sources": {
     "adsb": {
       "calculado_utc": "2026-10-15T19:37:16+00:00",
-      "fetch": "changed"
-    },
-    "ioda": {
-      "calculado_utc": "2026-10-15T17:16:23+00:00",
       "fetch": "unchanged"
     },
+    "ioda": {
+      "calculado_utc": "2026-10-16T00:16:19+00:00",
+      "fetch": "changed"
+    },
     "usgs": {
-      "calculado_utc": "2026-10-15T21:33:58+00:00",
+      "calculado_utc": "2026-10-16T00:33:58+00:00",
       "fetch": "changed"
     }
   },
-  "line": "The observed state of the world: nothing to flag today.",
-  "count": 0,
-  "items": [],
-  "text": "The observed state of the world: nothing to flag today. https://observedstate.com/en/"
+  "line": "The observed state of the world: 19 things to flag today. Internet, in Austria, Brazil, Canada, Colombia, Czechia, Egypt, France, Germany, Ireland, Kenya, Saudi Arabia, South Africa, South Korea, Spain, Sweden, Taiwan, the United Arab Emirates, the United Kingdom and Vietnam.",
+  "count": 19,
+  "items": [
+    {
+      "kind": "internet",
+      "name": "Austria"
+    },
+    {
+      "kind": "internet",
+      "name": "Brazil"
+    },
+    {
+      "kind": "internet",
+      "name": "Canada"
+    },
+    {
+      "kind": "internet",
+      "name": "Colombia"
+    },
+    {
+      "kind": "internet",
+      "name": "Czechia"
+    },
+    {
+      "kind": "internet",
+      "name": "Egypt"
+    },
+    {
+      "kind": "internet",
+      "name": "France"
+    },
+    {
+      "kind": "internet",
+      "name": "Germany"
+    },
+    {
+      "kind": "internet",
+      "name": "Ireland"
+    },
+    {
+      "kind": "internet",
+      "name": "Kenya"
+    },
+    {
+      "kind": "internet",
+      "name": "Saudi Arabia"
+    },
+    {
+      "kind": "internet",
+      "name": "South Africa"
+    },
+    {
+      "kind": "internet",
+      "name": "South Korea"
+    },
+    {
+      "kind": "internet",
+      "name": "Spain"
+    },
+    {
+      "kind": "internet",
+      "name": "Sweden"
+    },
+    {
+      "kind": "internet",
+      "name": "Taiwan"
+    },
+    {
+      "kind": "internet",
+      "name": "the United Arab Emirates"
+    },
+    {
+      "kind": "internet",
+      "name": "the United Kingdom"
+    },
+    {
+      "kind": "internet",
+      "name": "Vietnam"
+    }
+  ],
+  "text": "The observed state of the world: 19 things to flag today. Internet, in Austria, Brazil, Canada, Colombia, Czechia, Egypt, France, Germany, Ireland, Kenya, Saudi Arabia, South Africa, South Korea, Spain, Sweden, Taiwan, the United Arab Emirates, the United Kingdom and Vietnam. https://observedstate.com/en/"
 }
