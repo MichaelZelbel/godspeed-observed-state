@@ -1,24 +1,29 @@
 {
   "status": "ok",
   "link": "https://observedstate.com/en/",
-  "checked_utc": "2026-10-18T01:08:42Z",
+  "checked_utc": "2026-10-18T05:59:44Z",
   "source": "Observed State, by Angel Cabrera",
   "sources": {
     "adsb": {
-      "calculado_utc": "2026-10-17T07:35:54+00:00",
-      "fetch": "unchanged"
+      "calculado_utc": "2026-10-18T02:36:20+00:00",
+      "fetch": "changed"
     },
     "ioda": {
-      "calculado_utc": "2026-10-17T18:16:13+00:00",
-      "fetch": "unchanged"
+      "calculado_utc": "2026-10-18T01:16:18+00:00",
+      "fetch": "changed"
     },
     "usgs": {
-      "calculado_utc": "2026-10-18T00:33:58+00:00",
+      "calculado_utc": "2026-10-18T05:33:58+00:00",
       "fetch": "changed"
     }
   },
-  "line": "The observed state of the world: nothing to flag today.",
-  "count": 0,
-  "items": [],
-  "text": "The observed state of the world: nothing to flag today. https://observedstate.com/en/"
+  "line": "The observed state of the world: 1 thing to flag today. Internet, in Saudi Arabia.",
+  "count": 1,
+  "items": [
+    {
+      "kind": "internet",
+      "name": "Saudi Arabia"
+    }
+  ],
+  "text": "The observed state of the world: 1 thing to flag today. Internet, in Saudi Arabia. https://observedstate.com/en/"
 }
