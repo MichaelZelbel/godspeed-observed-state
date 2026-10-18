@@ -1,19 +1,19 @@
 {
   "status": "ok",
   "link": "https://observedstate.com/en/",
-  "checked_utc": "2026-10-18T11:16:48Z",
+  "checked_utc": "2026-10-18T14:40:39Z",
   "source": "Observed State, by Angel Cabrera",
   "sources": {
     "adsb": {
-      "calculado_utc": "2026-10-18T02:36:20+00:00",
-      "fetch": "unchanged"
+      "calculado_utc": "2026-10-18T14:35:36+00:00",
+      "fetch": "changed"
     },
     "ioda": {
       "calculado_utc": "2026-10-18T08:16:21+00:00",
-      "fetch": "changed"
+      "fetch": "unchanged"
     },
     "usgs": {
-      "calculado_utc": "2026-10-18T10:33:58+00:00",
+      "calculado_utc": "2026-10-18T14:33:58+00:00",
       "fetch": "changed"
     }
   },
