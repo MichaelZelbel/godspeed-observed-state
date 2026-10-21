@@ -1,33 +1,29 @@
 {
   "status": "ok",
   "link": "https://observedstate.com/en/",
-  "checked_utc": "2026-10-21T01:39:31Z",
+  "checked_utc": "2026-10-21T07:45:04Z",
   "source": "Observed State, by Angel Cabrera",
   "sources": {
     "adsb": {
-      "calculado_utc": "2026-10-20T19:36:03+00:00",
-      "fetch": "unchanged"
+      "calculado_utc": "2026-10-21T07:35:56+00:00",
+      "fetch": "changed"
     },
     "ioda": {
-      "calculado_utc": "2026-10-20T23:16:19+00:00",
+      "calculado_utc": "2026-10-21T06:15:23+00:00",
       "fetch": "changed"
     },
     "usgs": {
-      "calculado_utc": "2026-10-21T01:33:58+00:00",
+      "calculado_utc": "2026-10-21T07:33:58+00:00",
       "fetch": "changed"
     }
   },
-  "line": "The observed state of the world: 2 things to flag today. Internet, in the United Arab Emirates; a magnitude 6.3 earthquake (197 km NW of Port-Olry, Vanuatu).",
-  "count": 2,
+  "line": "The observed state of the world: 1 thing to flag today. Air traffic, at Shanghai.",
+  "count": 1,
   "items": [
     {
-      "kind": "internet",
-      "name": "the United Arab Emirates"
-    },
-    {
-      "kind": "earthquake",
-      "name": "a magnitude 6.3 earthquake (197 km NW of Port-Olry, Vanuatu)"
+      "kind": "air",
+      "name": "Shanghai"
     }
   ],
-  "text": "The observed state of the world: 2 things to flag today. Internet, in the United Arab Emirates; a magnitude 6.3 earthquake (197 km NW of Port-Olry, Vanuatu). https://observedstate.com/en/"
+  "text": "The observed state of the world: 1 thing to flag today. Air traffic, at Shanghai. https://observedstate.com/en/"
 }
