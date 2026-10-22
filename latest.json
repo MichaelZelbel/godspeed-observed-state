@@ -1,24 +1,29 @@
 {
   "status": "ok",
   "link": "https://observedstate.com/en/",
-  "checked_utc": "2026-10-22T01:34:43Z",
+  "checked_utc": "2026-10-22T07:40:32Z",
   "source": "Observed State, by Angel Cabrera",
   "sources": {
     "adsb": {
-      "calculado_utc": "2026-10-21T19:36:35+00:00",
-      "fetch": "unchanged"
+      "calculado_utc": "2026-10-22T07:35:49+00:00",
+      "fetch": "changed"
     },
     "ioda": {
-      "calculado_utc": "2026-10-21T20:16:09+00:00",
-      "fetch": "unchanged"
+      "calculado_utc": "2026-10-22T03:16:15+00:00",
+      "fetch": "changed"
     },
     "usgs": {
-      "calculado_utc": "2026-10-22T01:33:58+00:00",
+      "calculado_utc": "2026-10-22T07:33:58+00:00",
       "fetch": "changed"
     }
   },
-  "line": "The observed state of the world: nothing to flag today.",
-  "count": 0,
-  "items": [],
-  "text": "The observed state of the world: nothing to flag today. https://observedstate.com/en/"
+  "line": "The observed state of the world: 1 thing to flag today. Air traffic, at Johannesburg.",
+  "count": 1,
+  "items": [
+    {
+      "kind": "air",
+      "name": "Johannesburg"
+    }
+  ],
+  "text": "The observed state of the world: 1 thing to flag today. Air traffic, at Johannesburg. https://observedstate.com/en/"
 }
