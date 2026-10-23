@@ -1,33 +1,29 @@
 {
   "status": "ok",
   "link": "https://observedstate.com/en/",
-  "checked_utc": "2026-10-23T13:31:49Z",
+  "checked_utc": "2026-10-23T18:25:47Z",
   "source": "Observed State, by Angel Cabrera",
   "sources": {
     "adsb": {
-      "calculado_utc": "2026-10-23T07:35:59+00:00",
-      "fetch": "unchanged"
+      "calculado_utc": "2026-10-23T14:35:36+00:00",
+      "fetch": "changed"
     },
     "ioda": {
-      "calculado_utc": "2026-10-23T07:16:09+00:00",
-      "fetch": "unchanged"
+      "calculado_utc": "2026-10-23T14:16:08+00:00",
+      "fetch": "changed"
     },
     "usgs": {
-      "calculado_utc": "2026-10-23T12:33:58+00:00",
+      "calculado_utc": "2026-10-23T17:33:58+00:00",
       "fetch": "changed"
     }
   },
-  "line": "The observed state of the world: 2 things to flag today. Air traffic, at Istanbul Sabiha; a magnitude 7.0 earthquake (191 km ENE of Nagqu, China).",
-  "count": 2,
+  "line": "The observed state of the world: 1 thing to flag today. Air traffic, at Istanbul Sabiha.",
+  "count": 1,
   "items": [
     {
       "kind": "air",
       "name": "Istanbul Sabiha"
-    },
-    {
-      "kind": "earthquake",
-      "name": "a magnitude 7.0 earthquake (191 km ENE of Nagqu, China)"
     }
   ],
-  "text": "The observed state of the world: 2 things to flag today. Air traffic, at Istanbul Sabiha; a magnitude 7.0 earthquake (191 km ENE of Nagqu, China). https://observedstate.com/en/"
+  "text": "The observed state of the world: 1 thing to flag today. Air traffic, at Istanbul Sabiha. https://observedstate.com/en/"
 }
