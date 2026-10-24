@@ -1,24 +1,33 @@
 {
   "status": "ok",
   "link": "https://observedstate.com/en/",
-  "checked_utc": "2026-10-24T00:49:32Z",
+  "checked_utc": "2026-10-24T05:58:12Z",
   "source": "Observed State, by Angel Cabrera",
   "sources": {
     "adsb": {
-      "calculado_utc": "2026-10-23T19:36:27+00:00",
-      "fetch": "unchanged"
+      "calculado_utc": "2026-10-24T02:35:53+00:00",
+      "fetch": "changed"
     },
     "ioda": {
-      "calculado_utc": "2026-10-23T21:16:32+00:00",
-      "fetch": "unchanged"
+      "calculado_utc": "2026-10-24T04:16:02+00:00",
+      "fetch": "changed"
     },
     "usgs": {
-      "calculado_utc": "2026-10-24T00:33:58+00:00",
+      "calculado_utc": "2026-10-24T05:33:58+00:00",
       "fetch": "changed"
     }
   },
-  "line": "The observed state of the world: nothing to flag today.",
-  "count": 0,
-  "items": [],
-  "text": "The observed state of the world: nothing to flag today. https://observedstate.com/en/"
+  "line": "The observed state of the world: 2 things to flag today. A magnitude 6.9 earthquake (197 km WNW of Port-Olry, Vanuatu); a magnitude 6.3 earthquake (170 km NW of Port-Olry, Vanuatu).",
+  "count": 2,
+  "items": [
+    {
+      "kind": "earthquake",
+      "name": "a magnitude 6.9 earthquake (197 km WNW of Port-Olry, Vanuatu)"
+    },
+    {
+      "kind": "earthquake",
+      "name": "a magnitude 6.3 earthquake (170 km NW of Port-Olry, Vanuatu)"
+    }
+  ],
+  "text": "The observed state of the world: 2 things to flag today. A magnitude 6.9 earthquake (197 km WNW of Port-Olry, Vanuatu); a magnitude 6.3 earthquake (170 km NW of Port-Olry, Vanuatu). https://observedstate.com/en/"
 }
