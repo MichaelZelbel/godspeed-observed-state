@@ -1,24 +1,37 @@
 {
   "status": "ok",
   "link": "https://observedstate.com/en/",
-  "checked_utc": "2026-10-31T13:41:42Z",
+  "checked_utc": "2026-10-31T18:37:01Z",
   "source": "Observed State, by Angel Cabrera",
   "sources": {
     "adsb": {
-      "calculado_utc": "2026-10-31T07:35:55+00:00",
+      "calculado_utc": "2026-10-31T14:35:43+00:00",
       "fetch": "changed"
     },
     "ioda": {
-      "calculado_utc": "2026-10-31T11:17:25+00:00",
+      "calculado_utc": "2026-10-31T18:16:11+00:00",
       "fetch": "changed"
     },
     "usgs": {
-      "calculado_utc": "2026-10-31T13:33:58+00:00",
+      "calculado_utc": "2026-10-31T18:33:58+00:00",
       "fetch": "changed"
     }
   },
-  "line": "The observed state of the world: nothing to flag today.",
-  "count": 0,
-  "items": [],
-  "text": "The observed state of the world: nothing to flag today. https://observedstate.com/en/"
+  "line": "The observed state of the world: 3 things to flag today. Internet, in Egypt, Taiwan and Vietnam.",
+  "count": 3,
+  "items": [
+    {
+      "kind": "internet",
+      "name": "Egypt"
+    },
+    {
+      "kind": "internet",
+      "name": "Taiwan"
+    },
+    {
+      "kind": "internet",
+      "name": "Vietnam"
+    }
+  ],
+  "text": "The observed state of the world: 3 things to flag today. Internet, in Egypt, Taiwan and Vietnam. https://observedstate.com/en/"
 }
