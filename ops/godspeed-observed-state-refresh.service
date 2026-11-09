@@ -1,0 +1,8 @@
+[Unit]
+Description=Refresh the shared Observed State line if GitHub's schedule is late
+
+[Service]
+Type=oneshot
+User=root
+Environment=HOME=/root
+ExecStart=/usr/bin/python3 /opt/godspeed-observed-state/ops/refresh_if_stale.py

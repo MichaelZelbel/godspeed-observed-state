@@ -1,0 +1,10 @@
+[Unit]
+Description=Check the shared Observed State line every 30 minutes
+
+[Timer]
+OnCalendar=*:0/30
+Persistent=true
+Unit=godspeed-observed-state-refresh.service
+
+[Install]
+WantedBy=timers.target
