@@ -1,12 +1,13 @@
 #!/usr/bin/env python3
 """Dispatch the shared GitHub refresh when its scheduled run falls behind."""
 import datetime as dt
+import base64
 import json
 import subprocess
 import urllib.request
 
 REPO = 'MichaelZelbel/godspeed-observed-state'
-LATEST = 'https://raw.githubusercontent.com/' + REPO + '/main/latest.json'
+LATEST = 'https://api.github.com/repos/' + REPO + '/contents/latest.json'
 MAX_AGE = dt.timedelta(minutes=90)
 ACTIVE_AGE = dt.timedelta(minutes=30)
 
@@ -35,10 +36,10 @@ def active_refresh(runs, now):
 def main():
     now = dt.datetime.now(dt.timezone.utc)
     req = urllib.request.Request(LATEST, headers={'User-Agent': 'godspeed-observed-state-refresh',
-                                                  'Cache-Control': 'no-cache'})
+                                                  'Accept': 'application/vnd.github+json'})
     try:
         with urllib.request.urlopen(req, timeout=15) as response:
-            record = json.load(response)
+            record = json.loads(base64.b64decode(json.load(response)['content']))
     except (OSError, ValueError):
         record = {}
     if not needs_refresh(record, now):

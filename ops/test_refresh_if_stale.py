@@ -1,7 +1,11 @@
 import datetime as dt
+import importlib.util
+from pathlib import Path
 import unittest
 
-import refresh_if_stale as refresh
+spec = importlib.util.spec_from_file_location('refresh_if_stale', Path(__file__).with_name('refresh_if_stale.py'))
+refresh = importlib.util.module_from_spec(spec)
+spec.loader.exec_module(refresh)
 
 
 class RefreshTests(unittest.TestCase):
