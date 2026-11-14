@@ -1,24 +1,33 @@
 {
   "status": "ok",
   "link": "https://observedstate.com/en/",
-  "checked_utc": "2026-11-14T06:35:58Z",
+  "checked_utc": "2026-11-14T14:14:11Z",
   "source": "Observed State, by Angel Cabrera",
   "sources": {
     "adsb": {
-      "calculado_utc": "2026-11-14T02:33:48+00:00",
+      "calculado_utc": "2026-11-14T07:33:59+00:00",
       "fetch": "changed"
     },
     "ioda": {
-      "calculado_utc": "2026-11-14T04:14:19+00:00",
+      "calculado_utc": "2026-11-14T11:14:13+00:00",
       "fetch": "changed"
     },
     "usgs": {
-      "calculado_utc": "2026-11-14T06:33:58+00:00",
+      "calculado_utc": "2026-11-14T13:33:58+00:00",
       "fetch": "changed"
     }
   },
-  "line": "The observed state of the world: nothing to flag today.",
-  "count": 0,
-  "items": [],
-  "text": "The observed state of the world: nothing to flag today. https://observedstate.com/en/"
+  "line": "The observed state of the world: 2 things to flag today. Air traffic, at Atlanta and Chicago.",
+  "count": 2,
+  "items": [
+    {
+      "kind": "air",
+      "name": "Atlanta"
+    },
+    {
+      "kind": "air",
+      "name": "Chicago"
+    }
+  ],
+  "text": "The observed state of the world: 2 things to flag today. Air traffic, at Atlanta and Chicago. https://observedstate.com/en/"
 }
