@@ -1,33 +1,37 @@
 {
   "status": "ok",
   "link": "https://observedstate.com/en/",
-  "checked_utc": "2026-11-21T02:27:29Z",
+  "checked_utc": "2026-11-21T11:16:48Z",
   "source": "Observed State, by Angel Cabrera",
   "sources": {
     "adsb": {
-      "calculado_utc": "2026-11-20T19:34:14+00:00",
-      "fetch": "unchanged"
+      "calculado_utc": "2026-11-21T07:33:49+00:00",
+      "fetch": "changed"
     },
     "ioda": {
-      "calculado_utc": "2026-11-20T21:14:13+00:00",
+      "calculado_utc": "2026-11-21T11:14:15+00:00",
       "fetch": "changed"
     },
     "usgs": {
-      "calculado_utc": "2026-11-21T01:33:58+00:00",
+      "calculado_utc": "2026-11-21T10:33:58+00:00",
       "fetch": "changed"
     }
   },
-  "line": "The observed state of the world: 2 things to flag today. Air traffic, at Mexico City; a magnitude 6.7 earthquake (9 km NE of Carhuamayo, Peru).",
-  "count": 2,
+  "line": "The observed state of the world: 3 things to flag today. Air traffic, at Los Angeles; a magnitude 6.7 earthquake (9 km NE of Carhuamayo, Peru); a magnitude 6.8 earthquake (103 km NE of Lospalos, Timor Leste).",
+  "count": 3,
   "items": [
     {
       "kind": "air",
-      "name": "Mexico City"
+      "name": "Los Angeles"
     },
     {
       "kind": "earthquake",
       "name": "a magnitude 6.7 earthquake (9 km NE of Carhuamayo, Peru)"
+    },
+    {
+      "kind": "earthquake",
+      "name": "a magnitude 6.8 earthquake (103 km NE of Lospalos, Timor Leste)"
     }
   ],
-  "text": "The observed state of the world: 2 things to flag today. Air traffic, at Mexico City; a magnitude 6.7 earthquake (9 km NE of Carhuamayo, Peru). https://observedstate.com/en/"
+  "text": "The observed state of the world: 3 things to flag today. Air traffic, at Los Angeles; a magnitude 6.7 earthquake (9 km NE of Carhuamayo, Peru); a magnitude 6.8 earthquake (103 km NE of Lospalos, Timor Leste). https://observedstate.com/en/"
 }
