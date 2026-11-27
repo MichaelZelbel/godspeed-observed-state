@@ -1,11 +1,11 @@
 {
   "status": "ok",
   "link": "https://observedstate.com/en/",
-  "checked_utc": "2026-11-27T12:38:07Z",
+  "checked_utc": "2026-11-27T22:03:11Z",
   "source": "Observed State, by Angel Cabrera",
   "sources": {
     "adsb": {
-      "calculado_utc": "2026-11-27T07:33:32+00:00",
+      "calculado_utc": "2026-11-27T19:34:47+00:00",
       "fetch": "changed"
     },
     "ioda": {
@@ -13,17 +13,21 @@
       "fetch": "unchanged"
     },
     "usgs": {
-      "calculado_utc": "2026-11-27T12:33:57+00:00",
+      "calculado_utc": "2026-11-27T21:33:58+00:00",
       "fetch": "changed"
     }
   },
-  "line": "The observed state of the world: 1 thing to flag today. Air traffic, at Denver.",
-  "count": 1,
+  "line": "The observed state of the world: 2 things to flag today. Air traffic, at Johannesburg and Mexico City.",
+  "count": 2,
   "items": [
     {
       "kind": "air",
-      "name": "Denver"
+      "name": "Johannesburg"
+    },
+    {
+      "kind": "air",
+      "name": "Mexico City"
     }
   ],
-  "text": "The observed state of the world: 1 thing to flag today. Air traffic, at Denver. https://observedstate.com/en/"
+  "text": "The observed state of the world: 2 things to flag today. Air traffic, at Johannesburg and Mexico City. https://observedstate.com/en/"
 }
