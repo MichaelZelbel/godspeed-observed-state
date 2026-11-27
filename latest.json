@@ -1,41 +1,41 @@
 {
   "status": "ok",
   "link": "https://observedstate.com/en/",
-  "checked_utc": "2026-11-26T19:41:13Z",
+  "checked_utc": "2026-11-27T02:54:52Z",
   "source": "Observed State, by Angel Cabrera",
   "sources": {
     "adsb": {
-      "calculado_utc": "2026-11-26T19:33:59+00:00",
+      "calculado_utc": "2026-11-27T02:33:31+00:00",
       "fetch": "changed"
     },
     "ioda": {
       "calculado_utc": "2026-11-26T10:14:26+00:00",
-      "fetch": "changed"
+      "fetch": "unchanged"
     },
     "usgs": {
-      "calculado_utc": "2026-11-26T19:33:58+00:00",
+      "calculado_utc": "2026-11-27T02:33:58+00:00",
       "fetch": "changed"
     }
   },
-  "line": "The observed state of the world: 4 things to flag today. Air traffic, at Atlanta, Chicago, Denver and New York.",
+  "line": "The observed state of the world: 4 things to flag today. Air traffic, at Chicago, Dallas, Los Angeles and New York.",
   "count": 4,
   "items": [
-    {
-      "kind": "air",
-      "name": "Atlanta"
-    },
     {
       "kind": "air",
       "name": "Chicago"
     },
     {
       "kind": "air",
-      "name": "Denver"
+      "name": "Dallas"
+    },
+    {
+      "kind": "air",
+      "name": "Los Angeles"
     },
     {
       "kind": "air",
       "name": "New York"
     }
   ],
-  "text": "The observed state of the world: 4 things to flag today. Air traffic, at Atlanta, Chicago, Denver and New York. https://observedstate.com/en/"
+  "text": "The observed state of the world: 4 things to flag today. Air traffic, at Chicago, Dallas, Los Angeles and New York. https://observedstate.com/en/"
 }
